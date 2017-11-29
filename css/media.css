@@ -1,0 +1,156 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+#shop .timer .days span {
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+#shop .timer .hours.value {
+	padding: 5px;
+}
+#shop .timer .days .value span  {
+	font-size: 51px;
+
+}
+
+#shop .timer .hours.value p {
+	font-size: 12px;
+}
+
+#shop .timer .minutes p {
+	font-size: 10px;
+}
+
+.grape-1 img,
+#news .grape-2 img,
+#news .grape-3 img  {
+	width: 50%;
+}
+#news .grape-2 img {
+	float: right;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+#home .my-menu {
+	display: none;
+	
+}
+
+.top-fix .row .sandwich {	
+	display: block;
+	color: #006d10;
+	padding: 1px;
+	position: absolute;
+	top: 30%;
+	right: 30px;
+	font-size: 30px;
+	line-height: 1;
+}
+
+#shop .timer .days span {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#shop .timer .days .value span  {
+	font-size: 40px;
+	letter-spacing: 0
+}
+#shop .hours.value span {
+	font-size: 38px;
+}
+#shop .days .value p {
+	font-size: 12px;
+}
+#shop .timer .value {
+	padding: 5px;
+}
+
+.grape-1 img,
+#news .grape-2 img,
+#news .grape-3 img  {
+	width: 35%;
+}
+h4 {
+	font-size: 16px;
+}	
+h5 {
+	font-size: 12px;
+}	
+
+.news-descr p {
+	font-size: 12px;
+	}
+#features .feature-descr {
+	font-size: 16px;
+}
+.features-item {
+	margin-bottom: 20px;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+#shop .timer p {
+	font-size: 10px;
+}
+
+#shop .shop-img {
+	left: 0;
+	margin-bottom: 30px;
+}
+#shop .shop-text {
+	text-align: center;
+	}
+
+.grape-1,
+#news .grape-2,
+#news .grape-3  {
+	display: none;
+}
+.news-descr {
+	text-align: center;
+}
+
+#features .feature-descr {
+	font-size: 12px;
+}
+
+#features {
+	padding: 20px 0
+}
+
+
+
+}
+@media only screen and (max-width : 576px) {
+.features-item {
+	margin-left: 20%;
+}
+footer ul a {
+	font-size: 12px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.footer-block p {
+	font-size: 12px;
+}
+footer strong {
+	font-size: 12px;
+}
+
+	}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
